@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api/feedback";
+const API_BASE_URL = "https://upteky-assitment-1.onrender.com/api/feedback";
 
 export const feedbackAPI = {
   submitFeedback: async (data) => {
