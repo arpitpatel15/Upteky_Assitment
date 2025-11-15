@@ -71,8 +71,9 @@ function App() {
         </div>
 
         <footer className="text-center text-gray-400 text-sm mt-12 pb-6">
-          <p>Built with React + TailwindCSS</p>
+          <p>© {new Date().getFullYear()} Arpit Patel. All rights reserved.</p>
         </footer>
+
       </div>
     </div>
   );
